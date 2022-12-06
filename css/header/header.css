@@ -1,0 +1,358 @@
+#header {
+    height: 10em;
+    background-color: #161515;
+    color: #ffffff;
+    display: flex;
+}
+
+#logo {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+#logo>a h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: "RobotoBold";
+}
+
+#logo>a h1 span {
+    color: #0090ff;
+    font-family: "RobotoBlack";
+}
+
+#buscar {
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+#iniciar {
+    width: 20%;
+    height: auto;
+    text-align: right;
+    font-size: 0.9em;
+    font-family: "RobotoBold";
+}
+
+#iniciar>a:link, #iniciar>a:visited {
+    background-color: #0633f5;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#iniciar>a:hover, #iniciar>a:active {
+    background-color: #052aca;
+    transition: 1s;
+}
+
+#registrar {
+    width: 20%;
+    height: auto;
+    font-size: 0.9em;
+    font-family: "RobotoBold";
+}
+
+#registrar>a:link, #registrar>a:visited {
+    background-color: #ff177b;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#registrar>a:hover, #registrar>a:active {
+    background-color: #bb0f5a;
+    transition: 1s;
+}
+
+/* DISEÑO RESPONSIVE */
+
+@media screen and (max-width: 3400px) {
+    #hnav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #hnav {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    #hnav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #header {
+        height: 8em;
+    }
+
+    #iniciar {
+        font-size: 0.7em;
+    }
+    
+    #registrar {
+        font-size: 0.7em;
+    }
+    
+    #hnav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #header {
+        height: 8em;
+    }
+
+    #logo {
+        font-size: 0.9em;
+    }
+
+    #iniciar {
+        font-size: 0.7em;
+    }
+    
+    #registrar {
+        font-size: 0.7em;
+    }
+
+    #hnav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #header {
+        height: 8em;
+    }
+
+    #logo {
+        font-size: 0.8em;
+    }
+
+    #iniciar {
+        font-size: 0.7em;
+    }
+
+    #iniciar>a:link, #iniciar>a:visited {
+        padding: 8px 20px;
+    }
+    
+    #registrar {
+        font-size: 0.7em;
+    }
+    
+    #registrar>a:link, #registrar>a:visited {
+        padding: 8px 20px;
+    }
+
+    #hnav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    #header {
+        height: 8em;
+    }
+
+    #logo {
+        font-size: 0.7em;
+    }
+
+    #iniciar {
+        font-size: 0.6em;
+    }
+    
+    #registrar {
+        font-size: 0.6em;
+    }
+
+    #hnav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #header {
+        width: 100%;
+        height: 7em;
+    }
+
+    #logo {
+        font-size: 0.8em;
+    }
+
+    #iniciar {
+        display: none;
+    }
+
+    #registrar {
+        display: none;
+    }
+    
+    #hnav {
+        width: 20%;
+        display: flex;
+    }
+
+    #hnav>nav.checkbtn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hnav>nav>ul{
+        position: absolute;
+        width: 100%;
+        height: 13%;
+        background: #161515;
+        top: 105px;
+        left: -100%;
+        border-radius: 5px;
+        text-align: center;
+        transition: all .5s;
+        z-index: 10;
+    }
+
+    #hnav>nav ul li{
+        height: 0.8em;
+        display: block;
+        margin: 22px 0;
+        line-height: 10px;
+    }
+
+    #hnav>nav ul li a{
+        font-size: 13px;
+        font-family: "RobotoBold";
+        color: #ffffff;
+    }
+
+    #hnav>nav>ul>li a:hover, #hnav>nav>ul>li a.active{
+        background: none;
+        color: #3ACACE;
+    }
+
+    #hnav>nav>#check:checked ~ ul{
+        left:0;
+    }
+
+    #hnav>nav>#check{
+        display: none;
+    }
+
+    #hnav>nav>label>img {
+        width: 1.5em;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #header {
+        height: 7em;
+    }
+
+    #logo {
+        font-size: 0.8em;
+    }
+
+    #iniciar {
+        display: none;
+    }
+
+    #registrar {
+        display: none;
+    }
+    
+    #hnav {
+        width: 20%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #header {
+        height: 6em;
+    }
+
+    #logo {
+        font-size: 0.7em;
+    }
+
+    #iniciar {
+        display: none;
+    }
+
+    #registrar {
+        display: none;
+    }
+    
+    #hnav {
+        width: 20%;
+        display: flex;
+    }
+
+    #hnav>nav>ul{
+        top: 95px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #header {
+        height: 5em;
+    }
+
+    #logo {
+        font-size: 0.5em;
+    }
+
+    #iniciar {
+        display: none;
+    }
+
+    #registrar {
+        display: none;
+    }
+    
+    #hnav {
+        width: 20%;
+        display: flex;
+    }
+
+    #hnav>nav>ul{
+        top: 78px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #header {
+        height: 7em;
+    }
+
+    #logo {
+        font-size: 0.5em;
+    }
+
+    #iniciar {
+        display: none;
+    }
+
+    #registrar {
+        display: none;
+    }
+    
+    #hnav {
+        width: 20%;
+        display: flex;
+    }
+}

@@ -1,0 +1,39 @@
+* {
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+}
+
+#contenido {
+    width: 90%;
+}
+
+/* ADAPTABILIDAD PARA OTROS DISPOSITIVOS */
+
+@media screen and (max-width: 3400px) {}
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 910px) {
+    #contenido {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #contenido {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 575px) {}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 360px) {}

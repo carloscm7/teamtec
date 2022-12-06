@@ -1,0 +1,120 @@
+#carousel {
+    height: auto;
+    text-align: center;
+    display: flex;
+}
+
+#destacado1 {
+    width: 24%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#destacado1>a img {
+    width: 100%;
+    height: auto;
+    transition: transform .1s;
+    border-radius: 5px;
+}
+
+#destacado1>a img:hover {
+    opacity: 90%;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+#destacado2 {
+    width: 24%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#destacado2>a img {
+    width: 100%;
+    height: auto;
+    transition: transform .1s;
+    border-radius: 5px;
+}
+
+#destacado2>a img:hover {
+    opacity: 90%;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+#destacado3 {
+    width: 24%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#destacado3>a img {
+    width: 100%;
+    height: auto;
+    transition: transform .1s;
+    border-radius: 5px;
+}
+
+#destacado3>a img:hover {
+    opacity: 90%;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+#destacado4 {
+    width: 24%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#destacado4>a img {
+    width: 100%;
+    height: auto;
+    transition: transform .1s;
+    border-radius: 5px;
+}
+
+#destacado4>a img:hover {
+    opacity: 90%;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+/* MODO RESPONSIVE */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 910px) {}
+
+@media screen and (max-width: 767px) {
+    #destacado1 {
+        display: none;
+    }
+
+    #destacado2 {
+        width: 100%;
+        height: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #destacado3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 575px) {}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 360px) {}
