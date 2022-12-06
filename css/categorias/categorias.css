@@ -1,12 +1,12 @@
 #categoria {
     height: auto;
-    background-color: #edf5fc;
+    background-color: #ffffff;
     font-family: "RobotoRegular";
     border-radius: 10px 10px 0px 0px;
 }
 
 #ctitulo {
-    background-color: #3310E6;
+    background-color: #000681;
     color: #ffffff;
     border-radius: 10px;
     width: 100%;

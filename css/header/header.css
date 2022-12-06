@@ -1,25 +1,39 @@
 #header {
     height: 10em;
-    background-color: #161515;
+    background-color: #ffffff;
     color: #ffffff;
     display: flex;
+    border-bottom: #000681 5px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 #logo {
     width: 25%;
     height: auto;
     float: left;
+    text-align: center;
+}
+
+#logo>img {
+    width: 30%;
+    height: 30%;
 }
 
 #logo>a h1 {
+    padding-top: 2px;
+    font-size: 150%;
     color: #ffffff;
     text-align: center;
     font-family: "RobotoBold";
 }
 
 #logo>a h1 span {
-    color: #0090ff;
-    font-family: "RobotoBlack";
+    color: #ffffff;
+    font-family: "RobotoBold";
 }
 
 #buscar {
@@ -37,7 +51,7 @@
 }
 
 #iniciar>a:link, #iniciar>a:visited {
-    background-color: #0633f5;
+    background-color: #000681;
     color: white;
     padding: 8px 25px;
     text-align: center;
@@ -46,7 +60,7 @@
 }
 
 #iniciar>a:hover, #iniciar>a:active {
-    background-color: #052aca;
+    background-color: #000335;
     transition: 1s;
 }
 

@@ -1,6 +1,6 @@
 #footer {
     height: auto;
-    background-color: #000000;
+    background-color: #000113;
     display: flex;
     text-align: center;
     padding-top: 5%;
@@ -14,14 +14,14 @@
 }
 
 #logotipo>h2 {
-    font-size: 300%;
+    font-size: 250%;
     text-align: center;
     font-family: "RobotoBold";
 }
 
 #logotipo>h2 span {
-    color: #0090ff;
-    font-family: "RobotoBlack";
+    font-size: 30%;
+    font-family: "RobotoMedium";
 }
 
 #contacto {
@@ -37,12 +37,12 @@
     position: relative;
     line-height: 40px;
     font-size: 24px;
-    border: solid #0633f5;
+    border: solid #0090ff;
     border-radius: 50%;
     height: 40px;
     width: 40px;
     color: #ffffff;
-    background:#0633f5;
+    background:#0090ff;
 }
 
 #contacto>a i:hover {
@@ -67,12 +67,12 @@
     position: relative;
     line-height: 30px;
     font-size: 20px;
-    border: solid #0633f5;
+    border: solid #0090ff;
     border-radius: 50%;
     height: 30px;
     width: 30px;
     color: #ffffff;
-    background:#0633f5;
+    background:#0090ff;
 }
 
 /* MODO RESPONSIVE */
