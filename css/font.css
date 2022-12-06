@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'RobotoBlack';
+    src:url(../font/RobotoBlack.woff);
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src:url(../font/RobotoBold.woff);
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src:url(../font/RobotoLight.woff);
+}
+
+@font-face {
+    font-family: 'RobotoLightItalic';
+    src:url(../font/RobotoLightItalic.woff);
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src:url(../font/RobotoMedium.woff);
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src:url(../font/RobotoRegular.woff);
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src:url(../font/RobotoThin.woff);
+}
+
+@font-face {
+    font-family: 'RobotoItalic';
+    src:url(../font/RobotoItalic.woff);
+}
+
+@font-face {
+    font-family: 'RoadRage';
+    src:url(../font/RoadRage.woff);
+}

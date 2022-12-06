@@ -1,0 +1,29 @@
+.accordion {
+    font-family: "RobotoRegular";
+    text-align: center;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 19px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    text-align: center;
+    font-family: "RobotoRegular";
+    background-color: #ccc; 
+}
+
+.panel {
+    text-align: center;
+    font-family: "RobotoRegular";
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
