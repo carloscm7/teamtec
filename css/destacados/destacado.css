@@ -109,6 +109,10 @@
     #destacado3 {
         display: none;
     }
+
+    #destacado4 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {}
