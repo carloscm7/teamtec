@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-#logo>img {
+#logo>a img {
     width: 30%;
     height: 30%;
 }

@@ -48,6 +48,12 @@
 #contacto>a i:hover {
     transition: 1s;
     scale: (1,1);
+    border-radius: 50%;
+    background-color: #0161d1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 #info {
